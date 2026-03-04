@@ -1,97 +1,117 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Carlos La Fuente — Software Engineer",
+  author: "Carlos La Fuente",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Software Engineer and Backend Developer based in Santa Cruz de la Sierra, Bolivia. I specialize in building scalable, reliable web applications and backend services.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/carlos.jpg",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "LinkedIn", href: "https://www.linkedin.com/in/carlos-la-fuente-sanguino/" },
+    { text: "Github", href: "https://github.com/carloslafuente" },
   ],
-  socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  socialImage: "/",
+  canonicalURL: "https://carloslafuente.com",
 };
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Carlos La Fuente",
+    specialty: "Software Engineer & Backend Developer",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "Software Engineer based in Santa Cruz de la Sierra, Bolivia. I love writing code and specialize in building backend services and full‑stack web applications.",
+    email: "carlos.lafuente.dev@gmail.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "FX Replay",
+      position: "Backend Developer",
+      startDate: "Mar 2025",
+      endDate: "Present",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Designing and implementing backend services to support a trading replay platform, focusing on performance, scalability, and reliability.",
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "BancoSol",
+      position: "Software Architect",
+      startDate: "Jun 2024",
+      endDate: "Mar 2025",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "Led software architecture initiatives to modernize banking systems, collaborating with cross-functional teams to design scalable and secure solutions.",
       ],
     },
     {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
+      company: "escala",
+      position: "Full Stack Developer",
+      startDate: "Feb 2022",
+      endDate: "Jun 2024",
+      summary: [
+        "Developed and maintained full‑stack features for marketing and CRM products, working across frontend and backend to deliver reliable, user-focused solutions.",
+      ],
+    },
+    {
+      company: "BairesDev",
+      position: "Associate Software Engineer",
+      startDate: "Nov 2021",
+      endDate: "Feb 2022",
+      summary: [
+        "Contributed to international client projects as a software engineer, collaborating in distributed teams and following best practices in code quality and delivery.",
+      ],
+    },
+    {
+      company: "Banco Fassil S.A.",
+      position: "Technology Development Analyst",
+      startDate: "Nov 2020",
+      endDate: "Nov 2021",
+      summary: [
+        "Led a development team to build new features for the bank account opening process, focusing on reliability and user experience.",
+      ],
+    },
+    {
+      company: "GearSolutions SRL",
+      position: "Full Stack Developer",
+      startDate: "Sep 2019",
+      endDate: "Sep 2020",
+      summary: [
+        "Worked as a frontend web developer on multiple client projects, integrating backend services and ensuring high‑quality UI implementations.",
+      ],
+    },
+    {
+      company: "Marriott Hotels",
+      position: "Information Technology Intern",
+      startDate: "Feb 2019",
+      endDate: "Jun 2019",
+      summary: [
+        "Provided technical support, assisted with server administration, and developed internal web applications to solve operational problems.",
+      ],
     },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
-    },
-    {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
-    },
-    {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      name: "FleetFlow App",
+      summary: "A fleet management app that allows you to track your fleet of vehicles.",
+      linkPreview: "https://fleetflow.app",
+      linkSource: "https://github.com/carloslafuente/fleetflow-app",
+      image: "/fleetflow.png",
     },
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
+I build the systems behind the scenes that users never notice — until something goes wrong. With 5+ years in backend and full-stack development, I've designed and shipped solutions for banks, CRMs, and SaaS products that handle real money, real data, and real users at scale.
 
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+My experience spans software architecture, API design, cloud infrastructure (AWS & Azure), and hands-on development in Node.js, NestJS, and .NET Core. At Banco Solidario, I led architecture decisions across security, compliance (PCI DSS, GDPR), and system integrations. At FX Replay, I'm focused on performance and reliability for a trading data platform.
+I'm at my best when I'm owning a complex technical problem — from whiteboard to deployment.
+
+🛠 Node.js · NestJS · .NET Core · TypeScript · AWS · PostgreSQL · MongoDB · Docker · Microservices · DDD  
     `,
-    image: "/alejandro-big.jpg",
+    image: "/carlos.jpg",
   },
 };
 
