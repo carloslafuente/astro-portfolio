@@ -30,10 +30,19 @@ export const SITE_CONTENT: SiteContent = {
   },
   experience: [
     {
+      company: "BUK",
+      position: "Software Engineer L3",
+      startDate: "Mar 2026",
+      endDate: "Present",
+      summary: [
+        "Developing and maintaining features for an HRMS platform, focusing on performance, scalability, and reliability.",
+      ],
+    },
+    {
       company: "FX Replay",
       position: "Backend Developer",
       startDate: "Mar 2025",
-      endDate: "Present",
+      endDate: "Mar 2026",
       summary: [
         "Designing and implementing backend services to support a trading replay platform, focusing on performance, scalability, and reliability.",
       ],
@@ -48,7 +57,7 @@ export const SITE_CONTENT: SiteContent = {
       ],
     },
     {
-      company: "escala",
+      company: "Escala SAAS",
       position: "Full Stack Developer",
       startDate: "Feb 2022",
       endDate: "Jun 2024",
@@ -97,9 +106,26 @@ export const SITE_CONTENT: SiteContent = {
     {
       name: "FleetFlow App",
       summary: "A fleet management app that allows you to track your fleet of vehicles.",
-      linkPreview: "https://fleetflow.app",
-      linkSource: "https://github.com/carloslafuente/fleetflow-app",
-      image: "/fleetflow.png",
+      linkPreview: "https://fleetflow.la/",
+      image: "https://fleetflow.la/assets/car.svg",
+    },
+    {
+      name: "Cesbar Store",
+      summary: "A web store for the Cesbar brand.",
+      linkPreview: "https://www.cesbarstore.com.bo/",
+      image: "https://www.cesbarstore.com.bo/images/logo.png",
+    },
+    {
+      name: "Couromoda Family Store",
+      summary: "A web store for the Couromoda Family brand.",
+      linkPreview: "https://www.couromoda.com.bo/",
+      image: "https://couromoda.com.bo/wp-content/uploads/2024/07/Logo-CM-330x59.png",
+    },
+    {
+      name: "Bancosol Solnet Digital",
+      summary: "A web for the Bancosol bank web portal.",
+      linkPreview: "https://solnetdigital.bancosol.com.bo/login",
+      image: "https://solnetdigital.bancosol.com.bo/logos/bancosol-logo-light.svg",
     },
   ],
   about: {
