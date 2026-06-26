@@ -30,12 +30,12 @@ export const SITE_CONTENT: SiteContent = {
   },
   experience: [
     {
-      company: "BUK",
-      position: "Software Engineer L3",
+      company: "Freelance",
+      position: "Software Engineer",
       startDate: "Mar 2026",
       endDate: "Present",
       summary: [
-        "Developing and maintaining features for an HRMS platform, focusing on performance, scalability, and reliability.",
+        "Working as a freelance software engineer, providing backend and full-stack development services to clients, focusing on building scalable and maintainable applications.",
       ],
     },
     {
